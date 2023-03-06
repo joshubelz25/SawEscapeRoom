@@ -11,4 +11,15 @@ button{
     border-radius: 20px;
     padding: 10px;
     }
+h1{
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+}
+a{
+    margin-left: 47%;
+}
     
