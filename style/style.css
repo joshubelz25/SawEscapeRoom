@@ -1,16 +1,6 @@
 body{
     background-color: gray;
 }
-button{
-    margin-left: 670px;
-    font-family: 'Nosifer', cursive;
-    border: 5px solid white;
-    color: white;
-    margin-top: 50px;
-    background-color: rgb(90, 107, 201);
-    border-radius: 20px;
-    padding: 10px;
-    }
 h1{
     font-family: 'Nosifer', cursive;
     text-align: center;
@@ -22,3 +12,66 @@ p{
 a{
     margin-left: 47%;
 }
+audio::-webkit-media-controls-panel{
+    background-color: grey;
+    margin-left: 0px;
+}
+button{
+    margin-left: 48%;
+}
+.hero-image{
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Bf9WQs8OSG-QGflsGV5x_Bl4QRcV1tdnGq0cNmFsY09EZd09Ta9C9SC3xjo5NEK1i3A:https://upload.wikimedia.org/wikipedia/commons/0/0e/Mobilechallenge-4k-wallpaper-close-up-807598.jpg&usqp=CAU");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-left: 35%;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    font-size: xx-large;
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2018/01/OfficialSawEscape09.jpg?resize=560%2C600&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+}
+.hero-content {
+    position: relative;
+}
+.hero-button {
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    margin-top: 5rem;
+    margin-left: 1000px;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
+}
+    
