@@ -1,6 +1,3 @@
+"use strict"
 
-let btn = document.createElement("button");
-btn.innerHTML = "Start With Caution";
-btn.onclick = function () {
-    
-}
+alert("You have awaken again after being knocked out, you looked down to see that your feet and one hand has been chained.You noticed that their are objects on the ground that would be able to help you escape.")
