@@ -71,7 +71,7 @@ button{
     cursor: pointer;
 }
 .hero-button:hover {
-    background-color: #cb376a;
-    border: 1px solid #db7598;
+    background-color: grey;
+    border: 1px solid grey;
 }
     
