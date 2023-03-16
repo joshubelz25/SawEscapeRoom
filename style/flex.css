@@ -1,0 +1,9 @@
+.her0-text{
+    display: flex;
+    justify-content: center;
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
